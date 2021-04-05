@@ -9,14 +9,14 @@ body{
 }
 
 .main{
-  padding 15px;
+  padding: 15px;
   margin: auto;
 }
 
 .img_container{
   background-color: white;
   padding: 15px;
-  margin 20px auto;
+  margin :20px auto;
 }
 .img_container img{
   width: 100%;
@@ -24,16 +24,21 @@ body{
 }
 
 #tribute-info{
-  width: 40%;
-  margin:auto;
+  margin: auto;
+
+  max-width: 800px;
   padding: 20px 0px;
 }
-#tribute-info ul li{
-  text-align: left;
+
+
+#tribute-info ul {
+  margin: 0px;
 }
 
+
 #tribute-info ul li{
-  margin: 20px 10px;
+
+  text-align: left;
 }
 #comentario{
   font-style: italic;
@@ -46,13 +51,3 @@ body{
 
 
 
-@media (max-width:800px){
-  img{
-    width: 100%;
-  }
-  #tribute-info {
-    width: 100%;
-
-  }
-
-}
